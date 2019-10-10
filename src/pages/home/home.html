@@ -1,0 +1,74 @@
+<ion-header>
+  <ion-navbar>
+
+    <ion-title>Instagram</ion-title>
+      
+
+        <ion-buttons left>
+          <button color="black" ion-button icon-only>
+            
+            <ion-icon name="camera"></ion-icon>
+          </button>
+        </ion-buttons>
+
+        <ion-buttons end>
+          <button ion-button icon-only (click)="goMessages()">
+            <ion-icon name="paper-plane"></ion-icon>
+          </button>
+        </ion-buttons>
+    
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-row>
+        <ion-col col-10>
+          <ion-item>
+        <ion-avatar item-left>
+          <img src="assets/imgs/bg.jpg">
+        </ion-avatar>
+        <h2 style="font-weight: bold">Bill Gates</h2>
+        <p>Silicon Valley</p>
+        
+      </ion-item>
+        </ion-col >
+        <ion-col col-2>
+          <button  no-margin no-padding clear  color="black" ion-button icon-only style="float: right; top: 15px" >
+            <ion-icon name="more"></ion-icon>
+        </button>
+        </ion-col>
+      </ion-row>
+
+      <img src="assets/imgs/bg.jpg" >
+      
+
+
+      <p no-margin no-padding>
+          <button color="black" clear ion-button icon-only >
+            <ion-icon no-padding name= "heart"  class="icon-space"></ion-icon>
+          </button>
+          <button color="black" clear ion-button icon-only>
+            <ion-icon no-padding   name="ios-text-outline" class="icon-space" style="font-weight: bold"></ion-icon>
+          </button>
+          <button clear ion-button icon-only>
+            <ion-icon no-padding   name="paper-plane" class="icon-space"></ion-icon>
+          </button>
+          <button no-margin no-padding clear  ion-button icon-only style="float: right">
+            <ion-icon name="ios-bookmark-outline"></ion-icon>
+          </button>
+        </p>
+        <hr>
+    <ion-card-content>
+      
+        
+        <p><b>Bill Gates</b>  Success is a lousy teacher. It seduces smart people into thinking they can't lose.</p>
+        
+      
+        <ion-note style="font-size: 12px">
+          11h ago
+        </ion-note>
+      </ion-card-content>
+  
+</ion-content>
+  

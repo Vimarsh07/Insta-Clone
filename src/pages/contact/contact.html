@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Add Post
+    </ion-title>
+
+    <ion-buttons left>
+          <button ion-button icon-only>
+            <ion-icon name="images"></ion-icon>
+          </button>
+        </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-item>
+        <ion-label>Select Picture</ion-label>
+        <ion-select [(ngModel)]="gender">
+          <ion-option value="G">Gallery</ion-option>
+          <ion-option value="S">Screen Shots</ion-option>
+          <ion-option value="O">Other Images</ion-option>
+        </ion-select>
+      </ion-item>
+  
+</ion-content>
